@@ -1,5 +1,11 @@
 
 """
+PROBLEM: 3
+
+Given a string, find the length of the longest substring without repeating characters.
+"""
+
+"""
 Created on Wed Aug 22 12:48:41 2018
 
 @author: bishnoiamit
