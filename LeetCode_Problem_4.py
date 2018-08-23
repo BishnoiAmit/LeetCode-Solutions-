@@ -29,14 +29,13 @@ class Solution:
         :rtype: float
         """
         tlist = []
-        pos1 = 0
-        pos2 = 0
+        pos = 0
         
         while(nums1 and nums2):
-            if nums1[pos1] > nums2[pos2]:
-                tlist.append(nums2.pop(pos2))
+            if nums1[pos] > nums2[pos]:
+                tlist.append(nums2.pop(pos))
             else:
-                tlist.append(nums1.pop(pos1))
+                tlist.append(nums1.pop(pos))
         
         if len(nums1)>0:
             for i in range(len(nums1)):
